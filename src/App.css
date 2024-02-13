@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 30px;
+}
+.tour{
+  width:380px;
+  margin: 10px;
+  border: 1px solid black;
+  padding: .5rem;
+}
+.tour img{
+  height: 300px;
+  width: 100%;
+}
+p button{
+  background-color: blue;
+  border: none;
+  padding: .3rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  color: white;
+  margin-left: 5px  ;
+}
+footer button{
+  background-color: red;
+  color: white;
+  border: none;
+  padding: .5rem;
+  width: 100%;
+}
+
+#btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 530px;
+  margin-top: 230px;
+  background-color: rgba(0, 0, 0, 0.495);
+  color: white;
+  padding: 1rem;
+  border: none;
+  border-radius: 1rem;
+  font-size: 30px;
+}
